@@ -6,5 +6,9 @@
     "default_icon": "icon192.png",
     "default_popup": "index.html"
   },
-  "content_security_policy": "script-src 'self' 'sha256-n+2AUW7JuX7/EwWUEqoAyQRSFAsktnNR43kiTT29YwA='; object-src 'self'"
+  "content_security_policy": "script-src 'self' 'sha256-n+2AUW7JuX7/EwWUEqoAyQRSFAsktnNR43kiTT29YwA='; object-src 'self'",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["activeTab"]
 }
